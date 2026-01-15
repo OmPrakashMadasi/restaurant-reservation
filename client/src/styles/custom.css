@@ -1,0 +1,103 @@
+/* src/styles/custom.css */
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-icon {
+  font-size: 15rem;
+  opacity: 0.9;
+}
+
+/* Feature Cards */
+.feature-icon {
+  font-size: 3rem;
+}
+
+/* How It Works - Step Numbers */
+.step-circle {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.step-circle-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.step-circle-success {
+  background-color: #198754;
+  color: white;
+}
+
+.step-circle-info {
+  background-color: #0dcaf0;
+  color: white;
+}
+
+/* Stats Display */
+.stats-number {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* Login/Register Icon */
+.auth-icon {
+  font-size: 3rem;
+}
+
+/* Dashboard Welcome */
+.welcome-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 0.375rem;
+}
+
+/* Card Shadows */
+.card-shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Utility Classes */
+.min-vh-70 {
+  min-height: 70vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+/* Loading Spinner Center */
+.loading-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+/* Empty State Icons */
+.empty-state-icon {
+  font-size: 3rem;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-icon {
+    font-size: 8rem;
+  }
+  
+  .stats-number {
+    font-size: 2.5rem;
+  }
+}

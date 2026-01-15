@@ -1,0 +1,25 @@
+{
+  "short_name": "Restaurant Reservations",
+  "name": "Where Heat Meets Flavor - Restaurant Reservations",
+  "icons": [
+    {
+      "src": "Restaurant_Reservations.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Restaurant_Reservations.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Restaurant_Reservations.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
